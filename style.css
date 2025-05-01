@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 2.1rem;
+    color: #444;
+}
+
+.form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+input, textarea {
+    outline: none;
+}
+
+.input__label {
+    font-size: .925rem;
+    color: #444;
+}
+
+.input {
+    padding: 10px;
+    font-size: .925rem;
+    color: #444;
+}
+
+.textarea-input {
+    margin-top: 8px;
+    width: 280px;
+    resize: none;
+}
+
+.btn {
+    padding: 6px 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.variable-input__submit {
+    margin-top: 10px;
+}
+
+.table__list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.simplex-table {
+    border-collapse: collapse;
+}
+
+.simplex-table td {
+    min-width: 50px;
+    text-align: center;
+    font-size: .925rem;
+    padding: 4px 6px;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 26px;
+    font-size: .925rem;
+    color: #444;
+}
+
+.key-val {
+    background: rgb(190, 43, 43);
+    color: white;
+}
+
+.key-range {
+    background: rgb(190, 43, 43);
+    color: white;
+}
